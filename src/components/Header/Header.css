@@ -1,0 +1,24 @@
+/* header part css  */
+.header {
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.575);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.548);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: rgb(187, 187, 187);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  font-size: 75px;
+}
+.header h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}

@@ -1,0 +1,18 @@
+.mini-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(151, 187, 223);
+  box-shadow: 5px 10px 10px 1px rgb(38, 42, 46);
+  margin: 0px 10px;
+}
+.mini-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.mini-info p {
+  margin: 0px;
+}

@@ -1,0 +1,28 @@
+/* css to burnished your selected card container or pocket */
+.pocket {
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  background-color: rgba(112, 128, 144, 0.705);
+  font-size: 20px;
+}
+
+/* pockets texts css */
+.pocket h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.pocket h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+/* pocked structure  */
+
+.pocket-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 5px;
+}

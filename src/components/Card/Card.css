@@ -1,0 +1,53 @@
+/* this is the css file for card component */
+
+/* single card css  */
+.card-info {
+  display: flex;
+  margin: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 1px #1d1c1c;
+  transition: box-shadow 1s, transform 1s;
+}
+/* css for image in the card  */
+.card-info img {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+  border-radius: 150px;
+}
+
+/* this are the css to give style to the text in the main card  */
+.card-info p {
+  margin: 0px;
+}
+.card-info h4 {
+  margin: 0px;
+}
+.card-info h3 {
+  margin-top: 0px;
+}
+
+/* card hover effect provide from here  */
+.card-info:hover {
+  box-shadow: 5px 10px 10px 10px #1d1c1c;
+  transform: scaleY(1.1) scaleX(1.1);
+  color: rgb(255, 60, 0);
+}
+
+/* this is the css for add to pocket Button */
+
+.addToPocket {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* button hover  */
+.addToPocket:hover {
+  background-color: white;
+  color: black;
+}
